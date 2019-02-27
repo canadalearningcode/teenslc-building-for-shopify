@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+<!--Slide 1-->
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/teenslc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> Network</p>
+        <p><strong>Password:</strong> Password</p>
+        <hr>
+
+        <h2>Download<br> & Install</h2>
+          <p>Learner files (zip file): <a href="https://github.com/ladieslearningcode/teenslc-building-for-shopify/archive/master.zip">bit.ly/teenslc-building-for-shopify</a>
+            <ul>
+              <li>unzip the learner file (<em>extract all</em> if you’re on a PC)</li>
+              <li>open <em>slides-en.html</em> in the browser to view the slides</li>
+            </ul>
+          </p>
+
+    </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+<!--Slide 2-->
+    <section class="slide intro">
+      <img class="logo" src="framework/img/teenslc-logo-white.png" alt="Canada Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Building a store with Shopify</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23teenslearningcode&src=typd">#teenslearningcode</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <!--<p>In partnership with<br> <img src="framework/img/logo-white.svg" alt="name"></p>-->
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+<!--Slide 3-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introductions
+      </script>
+    </section>
+
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        ## Coders' code
+
+        1. Be friendly and welcoming
+        1. Be respectful of others by choosing words and actions with care
+        1. Be mindful of how much space you take up in conversations
+        1. Ask questions
+        1. Try your best (and have fun!)
+
+      </script>
+    </section>
+
+   <section class="slide" data-markdown>
+      <script type="text/template">
+        ## May's Theme is...
+
+        # ENTREPRENEURSHIP
+
+        Entrepreneurship is about bringing your ideas to life. We would not have the things we interact with every day, if it weren’t for it. If you could have an idea come to life, what might it be? What would you invent?
+
+        **Participate in this month's theme by:** Building your own ecommerce store.
+
+        Share your project using #clcCode4Change. More info [here](https://www.canadalearningcode.ca/code-can-change-the-world/).
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+       <script type="text/template">
+          <img class="no-shadow" style="padding:40px 0; width: 39%;" src="framework/img/workshop/shopify-logo.svg">
+          <br>
+          <h2 class="delayed">Commerce application</h2>
+          <br>
+          <h2 class="delayed">Over 600,000 merchants in 150+ countries</h2>
+          <br>
+          <h2 class="delayed">Canadian :)</h2>
+      </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        Some Examples
+
+        <img alt="example brands using shopify" src="framework/img/workshop/big-brands-2.png"/>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        <h1>Today's Goal:</h1>
+        <h2>Use <em>Liquid</em> to modify and create Shopify templates</h2>
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        <h2>Course Outline</h2>
+
+        * Today We'll Cover:
+          * Shopify's platform and the Dashboard
+          * Overview of templates
+          * Modify template files
+          * Storefront Editor customizations
+          * Introduction to Liquid Text
+          * Smarter page designs
+        * ![Example theme](framework/img/workshop/debut-theme-mobile.png)
+
+      </script>
+    </section>
+
+    <section class="slide centered">
+        <img src="framework/img/workshop/im-ready.gif">
+    </section>
+
+     <section class="slide title">
+        <h1>Getting Started</h1>
+        <h2>Shopify Partner Account</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Shopify Partner Account</h2>
+
+        <p>Login at <a href="http://www.shopify.ca/partners" alt="Shopify Partners Program">shopify.ca/partners</a>.</p><br>
+
+        <h3>Setting up your account</h3>
+
+        <p>Provide an email address to activate your account. After your account is created, you will need to create a development store. If you already have a business or brand in mind, set it up! If not, don't take too long to decide now. You can always add new stores later.</p>
+
+        <img src="framework/img/workshop/partner-program.png" width="500px"/><br>
+
+        <em>Promoted Shopify Partner at shopify.ca/partners</em>
+
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #I'm a Partner now. What does that mean?
+
+        * <img width="400px" src="framework/img/workshop/partners-sidebar.png">
+        * Partners account: 50% business, 50% developer's playground.
+          * Review collected and incoming payments<!-- .element: class="delayed" -->
+          * Hand off development stores to merchants<!-- .element: class="delayed" -->
+          * Quick access to a variety of resources<!-- .element: class="delayed" -->
+          * Create new stores for clients<!-- .element: class="delayed" -->
+          * Develop new apps for the App Store (apps.shopify.com/)<!-- .element: class="delayed" -->
+          * Design new themes for the Theme Store (themes.shopify.com/)<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide">
+        <h2>Create a new development store</h2>
+        <br>
+        <img src="framework/img/workshop/create-dev-store.png" alt="Create a new development store" class="center">
+
+
+    </section>
+
+    <section class="slide">
+        <img src="framework/img/workshop/shopify-home.png" alt="Shopify Home" class="center">
+    </section>
+
+     <section class="slide title">
+        <h1>Products</h1>
+        <h2>CSV file for bulk uploads</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Uploading CSV file</h2>
+
+        <div class="col col--one-half">
+            <p>CSV: "Comma Separated Value" file</p>
+
+            <ul>
+                <li>Products > Import button</li>
+                <li>Upload <b>llc-products.csv</b></li>
+                <li>Check the preview - looks good?</li>
+                <li>Start upload</li>
+            </ul>
+        </div>
+
+        <div class="col col--one-half delayed">
+            <img class="" src="framework/img/workshop/waiting.gif">
+            <br>
+            <p>This will take a few minutes, but we can close the pop-up window.</p>
+            <p>Refresh the page to get started.</p>
+        </div>
+    </section>
+
+    <section class="slide">
+        <img src="framework/img/workshop/product-page-overview.png" class="center">
+    </section>
+
+    <section class="slide title">
+        <h1>Themes</h1>
+        <h2>How the world sees your store</h2>
+    </section>
+
+    <section class="slide">
+        <img src="framework/img/workshop/onlinestore-themes.png" class="center">
+
+    </section>
+
+    <section class="slide">
+        <h2>Adding Themes to your store</h2>
+
+        <p>A single store can have <i>many</i> themes.</p>
+        <p>A theme is just the clothes your store wears - you can change it whenever you want!</p>
+        <p>Different themes have different functionality, settings, and features.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Upload a theme</h2>
+
+        <img src="framework/img/workshop/upload-a-theme.png" alt="Highlighting where to find the upload button" class="center">
+
+        <ul>
+            <li>Click "Upload theme"</li>
+            <li>Choose <code>Debut - Ladies Learning Code.zip</code> from the workshop files.</li>
+            <li>FYI: This is a version of Debut, a free theme available in the Theme store.</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Unpublished theme</h2>
+        <br>
+        <img src="framework/img/workshop/unpublished-theme.png" class="center w66">
+        <br>
+        <p>You can <b>customize</b> your theme by using the Online store editor.</p>
+    </section>
+
+    <section class="slide">
+        <br>
+        <img src="framework/img/workshop/editor-screen.png" class="center">
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Theme settings
+
+        * Examples of theme settings include:
+          * Image upload
+          * Color picker
+          * Text box
+          * Page/product/blog dropdowns
+          <br><br>You can see all the options in <a href="https://help.shopify.com/themes/development/storefront-editor/settings-schema">the online documentation</a>.
+        * <img width="300px" src="framework/img/workshop/header-theme-settings.png"/>
+
+      </script>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #1: Get to know your theme</h2>
+
+        <ul>
+            <li>For the Header, upload your logo if you have one, or select one of the placeholder logos in the <code>images</code> folder.</li>
+            <li>Add two new slideshow images. (Don't worry about the links yet.)</li>
+            <li>For the Footer, open up the 'Theme Settings' drawer and add some links to your social media properties.</li>
+            <li>Under the 'Theme Settings' tab, play around with the Colors and Typography settings.</li>
+            <li>Show the quantity selector on Product pages. (<b>Hint:</b> Navigate to the Product page in the editor)</li>
+            <li><b>Save</b> your work and <b>publish</b> this Debut theme.</li>
+        </ul>
+    </section>
+
+    <section class="slide centered">
+        <br>
+        <img src="framework/img/workshop/thumbs-up-robot.gif">
+    </section>
+
+    <section class="slide title">
+        <h1>Collections</h1>
+        <h2>Grouping products</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Managing your store's collections</h2>
+
+        <p>Let's add some more products to the homepage collection.</p>
+
+        <ul>
+          <li>Navigate to Products > Collections and edit the <b>Home page</b> collection.</li>
+          <li>Manually add 5 more products to the collection.</li>
+        </ul>
+        <br>
+        <img src="framework/img/workshop/manual-add.png" alt="Manually add products" width="800px">
+    </section>
+
+    <section class="slide">
+        <h2>Make a new collection</h2>
+        <p>Collections > "Add collection" button</p>
+
+        <div class="delayed">
+        <ul>
+            <li>Title: <b>Earrings</b></li>
+            <li>Conditions: Product type == Earrings</li>
+        </ul>
+
+        <img src="framework/img/workshop/earrings-conditions.png" alt="Earrings collection conditions" width="800px">
+
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Conditional collections</h2>
+
+        <ul>
+            <li>Title: <b>Necklaces</b></li>
+            <li>Conditions: Product type == Necklaces & Pendants</li>
+        </ul>
+        <br>
+        <ul>
+            <li>Title: <b>The Blue Diamond Collection</b></li>
+            <li>Conditions: Product vendor == Blue Diamond</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Multiple conditions collections</h2>
+
+        <div class="col col--one-half"</div>
+          <p>Title: <b>Household</b></p>
+          <p>Conditions: Any conditions you feel make sense.</p>
+          <p>Products must match: "any condition".  Why would that be?</p>
+        </div>
+
+        <div class="col col--one-half"</div>
+          <img src="framework/img/workshop/multiple-conditions.png" width="600px"/>
+        </div>
+    </section>
+
+    <section class="slide title">
+        <h1>Pages</h1>
+    </section>
+
+    <section class="slide">
+      <h2>Making pages</h2>
+
+      <p>Navigate to: Online store > Pages</p>
+
+      <p>Create an "About us" page to tell the story of your store.</p>
+
+      <p>Feel free to use this placeholder text for now:</p>
+      <pre><code class="hljs html">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper congue lacus vitae elementum. Quisque tempus dui quis lorem ullamcorper, iaculis interdum quam vestibulum. Nunc rhoncus eros feugiat libero tincidunt, non imperdiet lacus venenatis. Nunc quis lectus felis. Duis porttitor ligula enim, ut ornare sapien aliquet non. Vestibulum rhoncus bibendum ipsum eget maximus. In nec sapien elementum, porttitor nulla id, mattis metus. Nulla ac consectetur nisi, quis sagittis magna. Duis elementum laoreet vulputate. Mauris aliquam sem malesuada facilisis aliquet. Vivamus ut erat eget sapien ullamcorper ullamcorper et quis urna. Quisque consectetur neque tortor, sit amet accumsan purus sodales et.
+      </code></pre>
+
+      <p>Click the 'Save' button in the top right when you're done!</p>
+    </section>
+
+    <section class="slide centered">
+        <p><b>Pro tip:</b> watch out for code in the editor that may have carried over when you copy and pasted it here. You can delete that code. We'll be looking more at examples of code like this later!</p>
+        <br>
+        <img src="framework/img/workshop/rte-code.png" width="800px"/>
+
+    </section>
+    <section class="slide title">
+        <h1>Navigation</h1>
+        <h2>Working with menus</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Adding menu items</h2>
+        <p>We just created Collections and Pages, but can't see them in our menu yet. Let's add our "About us" page, as well as a <a href="https://docs.shopify.com/manual/your-website/navigation/create-drop-down-menu">drop down menu</a> under Catalog to list our Collections.</p>
+        <br>
+        <img src="framework/img/workshop/catalog-dropdown.png" class="center w66">
+
+    </section>
+
+    <section class="slide">
+        <h2>Add to a menu</h2>
+        <p>Online Store > Navigation</p>
+        <p>Edit the <b>Main menu</b> to add your "About us" page.</p>
+        <img src="framework/img/workshop/add-about-us.png" width="800px"/>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Create a nested menu
+        * Add a nested Catalog menu, like the example on the right:
+          <br><br>You can also rename "Catalog" to "Catalogue" if you prefer. More on this on the next slide.
+        * <img src="framework/img/workshop/nested-menu.png"/>
+      </script>
+    </section>
+
+    <section class="slide">
+      <h2>Languages</h2>
+        <p>Consider your target audience when deciding whether to use American vs. British spelling of certain works, like Jewelry vs. Jewellery. <strong>Pick one language variant and stick to it.</strong> Varying the style may confuse your users.</p>
+
+        <p>Here are some articles you can read on the subject:</p>
+        <ul>
+          <li><a href="https://econsultancy.com/the-uk-and-us-digital-markets-consumer-culture-differences-and-commonality/">The UK and US digital markets: consumer culture, differences and commonality</a></li>
+          <li><a href="https://www.nngroup.com/articles/american-vs-british-english-for-web/">American English vs. British English for Web Content</a></li>
+        </ul>
+    </section>
+
+    <section class="slide">
+       <h2>Exercise #1b: More theme customizations</h2>
+
+       <ul>
+           <li>Change the the footer newsletter sign-up heading to say "Subscribe for updates" instead of "Newsletter".</li>
+       </ul>
+       <div class="delayed">
+           <p>To change the Newsletter heading, we to need to <a href="https://docs.shopify.com/manual/your-website/themes/translate-theme" alt="Edit Theme language page">edit this theme's Languages page</a>.</p>
+
+           <img src="framework/img/workshop/edit-language-link.png" alt="Edit Language Link" class="center">
+       </div>
+   </section>
+
+    <section class="slide">
+        <h2>Language editor</h2>
+        <p>The language editor lets us avoid <em>hard coding</em> words into our theme's code.</p>
+        <p><b>Pro tip</b>: There are a lot of words here, so use the search function to find "Newsletter".<br />
+          Try using <code>ctrl</code> or <code>cmd</code> + <code>f</code> on your keyboard.</p>
+        <br>
+        <img src="framework/img/workshop/edit-language.png" width="600px"/>
+    </section>
+
+    <section class="slide centered">
+      <h2>What is "hard coding"?</h2>
+      <p>Let's take a step back and learn a bit about HTML.</p>
+      <img width="600px" src="framework/img/workshop/huh.gif" alt="gif to demonstrate feeling of confusion" />
+    </section>
+
+    <section class="slide title">
+      <h1>WHAT IS HTML?</h1>
+      <h2>Hypertext Markup Language</h2>
+    </section>
+
+    <section class="slide">
+      <h2>HTML</h2>
+      <p>HTML is a markup language. It is the essential language of the web. It <strong>  defines the content</strong> of a web page.</p>
+      <p>Just like languages that we speak and write, HTML follows proper "grammar" rules, too. HTML tags are written with left & right angled brackets < > and the forward slash /. Get to know these keys!</p>
+      <img src="framework/img/workshop/keyboard-html.png" alt="outlining keys on keyboard used in HTML" class="center no-shadow" width="700">
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      ##HTML Syntax
+      Tags usually come in pairs — an opening tag and a closing tag — to _wrap_ the content.  Note the closing tag has a forward slash <code>/</code>.
+      ```xml
+      <tag> <-- opening tag     closing tag --></tag>
+      ```
+
+      HTML _tags_ describe the content inside of them to the web browser.
+      ```xml
+      <h1>This tag describes a heading<h1>
+      <p>This tag is for paragraphs.</p>
+      ```
+
+      ---
+      ###Pro tip!
+      HTML _tags_ are also often referred to as "elements".
+    </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##Nesting HTML tags
+
+        When HTML Tags are nested, it creates a family tree-like structure of nodes that are ancestors, parents, children, siblings, etc.
+
+        ```
+        <parent>
+          <child></child>
+        </parent>
+        ```
+        When nesting tags, indent once to make the code easier to read. Indent using the `Tab` key on your keyboard.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##ATTRIBUTES
+
+        * provides additional information or instruction for the element
+        * included inside the opening HTML tag
+        * follows the syntax of `attribute="value"` (note the quotes)
+        * many different attributes
+
+        ```xml
+        <tag attribute="value">content</tag>
+        ```
+      </script>
+    </section>
+
+    <section class="slide">
+        <h2>What is "hard coding"?</h2>
+        <p>When text is explictly written in the HTML, we say that it is <b>hard coded</b>.  This means
+            it can only be changed if someone has access to the site's files, and knows how to code.</p>
+
+        <div class="delayed">
+            <h3>HTML</h3>
+            <pre><code class="hljs xml">
+&lt;h1&gt;Fuzzy boots&lt;/h1&gt;
+&lt;h3&gt;$139.99&lt;/h3&gt;
+&lt;p&gt;These boots will keep you warm all winter. Their truly amazing!&lt;/p&gt;
+            </code></pre>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>How does Liquid help?</h2>
+        <p>Instead of writing out explicity what we want, we can reference a <b><a href="https://docs.shopify.com/themes/liquid-documentation/objects">liquid object</a></b>.</p>
+
+        <p>Liquid objects will dynamically display the value of an attribute, like a title, price, etc.<br> within a set of <b>handles</b>:  <code>{{</code> ... <code>}}</code></p>
+
+        <div class="">
+            <h3>Liquid</h3>
+            <pre><code class="hljs xml">
+&lt;h1&gt;{{ product.title }}&lt;/h1&gt;
+&lt;p&gt;{{ product.description }}&lt;/p&gt;
+            </code></pre>
+        </div>
+
+        <div class="">
+            <h3>HTML returned</h3>
+            <pre><code class="hljs xml">
+&lt;h1&gt;Rooster Decor Wood Cheese Board&lt;/h1&gt;
+&lt;p&gt;This is such a lovely wood grain rooster cheese board.
+Great country / rustic decor for the rooster collector.&lt;/p&gt;
+            </code></pre>
+        </div>
+    </section>
+
+    <section class="slide title">
+        <h2>Code for when you aren't around</h2>
+        <br>
+        <h2 class="delayed">Or for future-you.</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #3: Break something on purpose</h2>
+
+        <ul>
+            <li>In the Theme editor, click on the 'Theme actions' dropdown and select 'Edit Code'</li>
+            <li>Find <b>theme.liquid</b> in the Layout directory and open it.</li>
+            <li>Delete everything <u>above</u> <code>{{ content_for_header }}</code>.</li>
+            <li>Save your work and <b>preview</b> it.</li>
+        </ul>
+
+        <img src="framework/img/workshop/break-1.png" width="800px"/>
+    </section>
+
+    <section class="slide centered">
+      <img slt="face of panic" src="framework/img/workshop/beaker-panic.jpg"/>
+    </section>
+
+    <section class="slide">
+        <h2>Load an older version</h2>
+        <p>If you cannot simply "undo" a change, you can load an <b>older version</b>.</p>
+        <img src="framework/img/workshop/older-versions.png" class="center">
+        <br>
+        <p><b>Pro tip:</b> Shortcut for undo: Cmd+Z (for Mac), Ctrl+Z (Windows)</p>
+
+    </section>
+
+    <section class="slide">
+        <h2>Break it again!</h2>
+
+        <p class="">Heads up! No <em>'Older Versions'</em> in the Assets directory!</p>
+
+        <ul>
+            <li>Go into the Debut theme's Assets directory and open <b>theme.scss.liquid</b>.</li>
+            <li>Type "What could go wrong?" anywhere.</li>
+            <li>Save and <b>preview</b> your work</li>
+        </ul>
+
+         <div class="">
+            <h3>theme.scss.liquid</h3>
+            <pre><code class="hljs css">
+What could go wrong?/*============
+Debut | Built with Shopify Slate
+Some things to know about this file:
+- Sass is compiled on Shopify's server
+            </code></pre>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Break smarter</h2>
+
+        <ul>
+            <li>Make a <b>Duplicate</b> of your theme from the Themes Dashboard</li>
+            <li>Check out the Online store editor settings of this new theme - they're the same!</li>
+        </ul>
+
+        <img src="framework/img/workshop/how-to-duplicate.png" width="600px"/>
+        <br>
+        <p><b>Pro tip</b>: Avoid editing the code of a store's live theme. Code on a duplicate theme, then publish that.</p>
+    </section>
+
+    <section class="slide title">
+        <h1>Templating</h1>
+        <h2>Building websites in small steps</h2>
+    </section>
+
+    <section class="slide centered">
+        <img src="framework/img/workshop/sample-page.png"/>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # What's in a page?
+
+        * <img src="framework/img/workshop/sample-page.png">
+        *
+          * Header (blue)
+          * Page title (black)
+          * Description (grey)
+          * Product photo (yellow)
+          * Product description (grey)
+          * Buttons (green)
+          * Related products (yellow)
+          * Footer (blue)
+      </script>
+    </section>
+
+    <section class="slide">
+        <div class="col col--one-half">
+            <img src="framework/img/workshop/theme-templates.png" class="center">
+        </div>
+
+        <div class="col col--one-half delayed">
+            <h3>We'll start with:</h3>
+            <ul>
+                <li>theme.liquid</li>
+                <li>page.liquid</li>
+                <li>product.liquid</li>
+                <li>collection.liquid</li>
+                <li>index.liquid</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # What's in a page?
+
+        * <img src="framework/img/workshop/sample-page-1.png"/>
+        * Layout
+          <br> **theme.liquid**
+          <br><br>This is going to "wrap" every other template we use.
+          <br><br>Your header and footer sections appear on <i>every page</i>.
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # The header
+
+        * <img src="framework/img/workshop/template-page--header.png"/>
+        * **header.liquid** - <em>in the <code>sections</code> folder</em>
+          * Your logo
+          * Site navigation links
+          * Cart button
+          * Account buttons
+          * Promotional banners
+          * Search box
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # The footer
+
+        * <img src="framework/img/workshop/template-page--footer.png"/>
+        * **footer.liquid** - <em>in the <code>sections</code> folder</em>
+          * Lists of quick links
+          * Social media icons/links
+          * Newsletter sign-up
+          * Search box
+          * Copyright information
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Pages
+
+        * <img src="framework/img/workshop/page-page.png"/>
+        * **page.liquid** - <em>in the <code>templates</code> folder</em>
+          * Base template for all your store's Pages.
+          * What's in it?
+            * Page title
+            * Page content - description, more pictures
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Products
+
+        * <img src="framework/img/workshop/product-page.png"/>
+        * **product.liquid**
+          * Base template for all your individual products.
+          * For Debut, this will contain a reference to `{% section 'product-template' %}` which will pull in the product template.
+          * What's in it?
+            * Product title and description
+            * Pricing info and variant options
+            * Add to Cart button
+            * Related products
+
+      </script>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #4: Intro to liquid objects</h2>
+
+        <p>How would we add the product's <b>type</b> after the product's description?</p>
+        <p>We need to know what <a href="https://docs.shopify.com/themes/liquid-documentation/objects/product">liquid objects are available for products</a>.</p>
+        <br>
+        <img src="framework/img/workshop/simple-product-type.png" width="800px"/>
+
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #4c: Intro to liquid objects</h2>
+        <h3>product-template.liquid</h3>
+
+        <div class="delayed">
+            <pre><code class="hljs xml">
+&lt;div class="product-single__description rte" itemprop="description"&gt;
+  {{ product.description }}
+&lt;/div&gt;
+&lt;p&gt;Type: {{ product.type }}&lt;/p&gt;
+            </code></pre>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #5: Intro to liquid filters</h2>
+
+        <p>Now let's <strong>link that text</strong> to a page that lists all products of that same type.</p>
+
+        <p>To do this, we'll need to know what <a href="https://docs.shopify.com/themes/liquid-documentation/filters">liquid filters</a> are available to us.</p>
+
+        <div class="delayed">
+            <p>Filters <b>modify</b> whatever they are attached to.</p>
+            <h3>Example</h3>
+            <pre><code class="hljs xml">
+// format: {{ LIQUID_OBJECT.PROPERTY_NAME | FILTER_NAME }}
+{{ product.handle | append: '.png' }}
+            </code></pre>
+
+            <p><b>Pro tip</b>: That vertical line character is called a "pipe".</p>
+        </div>
+
+        <p class="presenter-notes">
+            There are two instances of product.title - need to choose the right one.
+
+            Explain what a "pipe" is and where to find it.
+            Put a picture of the keyboard and point out where it is.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Types of filters</h2>
+
+        <p><b><a href="https://docs.shopify.com/themes/liquid-documentation/filters/string-filters">String Filters</a></b>: for when we want to modify words, sentences, titles, anything with characters.</p>
+
+        <div class="delayed">
+        <h3>Liquid</h3>
+            <pre><code class="hljs xml">
+{{ 'How are you?' | upcase }}
+{{ product.handle | append: '.png' }}
+{{ article.author | replace: 'Nathan', 'Vinay' | prepend: 'Capt. ' }}
+            </code></pre>
+        </div>
+
+        <div class="delayed">
+        <h3>Result</h3>
+            <pre><code class="hljs xml">
+HOW ARE YOU?
+fuzzy-boots.png
+Capt. Vinay
+            </code></pre>
+        </div>
+
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #5b: Intro to liquid filters</h2>
+
+        <p>Step 1: Output the product type with a call to action.</p>
+        <p>We'll be hard coding the text around the product type. We will also make sure the type is written in <b>lowercase</b> so it makes sense in the sentence.</p>
+        <img src="framework/img/workshop/product-with-type.png" width="600px"/>
+        <br>
+        <div class="delayed">
+            <pre><code class="hljs xml">
+&lt;div class="product-single__description rte" itemprop="description"&gt;
+{{ product.description }}
+&lt;/div&gt;
+&lt;p&gt;See more {{ product.type | downcase }} here&lt;/p&gt;
+            </code></pre>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #5c: Intro to liquid filters</h2>
+        <p>Step 2: The product type needs to <b>link to a page</b> with all products of that type.</p>
+        <p>To do this, we need <a href="https://docs.shopify.com/themes/liquid-documentation/filters/url-filters" alt="Shopify URL filters">the right type of URL filter</a>.</p>
+        <br>
+        <img src="framework/img/workshop/product-type-link.png" width="600px"/>
+
+    </section>
+
+    <section class="slide">
+        <h2>Types of filters</h2>
+        <p><b><a href="https://docs.shopify.com/themes/liquid-documentation/filters/url-filters">URL Filters</a></b>: for when you want to output the link to either a <b>file</b> on Shopify, or a link to a <b>filtered</b> page.</p>
+
+        <div class="">
+        <h3>Liquid</h3>
+            <pre><code class="hljs xml">
+{{ 'logo.png' | asset_url }}
+{{ product.vendor | url_for_vendor }}
+{{ "Shop jackets" | link_to_tag: 'Jackets' }}
+            </code></pre>
+        </div>
+
+        <div class="delayed">
+        <h3>Result</h3>
+            <pre><code class="hljs xml">
+//cdn.shopify.com/s/files/1/0087/0462/t/394/assets/logo.png?34423
+/collections/vendors?q=Blue%20Diamond
+&lt;a title=&quot;Show products matching tag Jackets&quot; href=&quot;/collections/frontpage/jackets&quot;&gt;Shop jackets&lt;/a&gt;
+            </code></pre>
+        </div>
+    </section>
+
+
+    <section class="slide">
+      <h2>Exercise #5d: Intro to liquid filters</h2>
+      <h3>Liquid</h3>
+          <pre><code class="hljs xml">
+{{ product.type | downcase | link_to_type }}
+          </code></pre>
+
+      <h3>HTML</h3>
+          <pre><code class="hljs xml">
+&lt;a href=&quot;/collections/types?q=pillows&quot; title=&quot;pillows&quot;&gt;pillows&lt;/a&gt;
+          </code></pre>
+
+      <p>Go check it out on a couple products!</p>
+
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #5e: Intro to liquid filters</h2>
+          <p><b>Bonus</b>: Link the entire call to action</p>
+          <p>Hint: It will be easier if you write the <code>&lt;a&gt;</code> tag yourself and use a new URL filter.</p>
+          <img src="framework/img/workshop/linked-call-to-action.png" class="center">
+        <div>
+          <div class="delayed">
+            <h3>Liquid</h3>
+            <pre><code class="hljs xml">
+&lt;a href="{{ product.type | url_for_type }}"&gt;
+See more {{ product.type | downcase }} here
+&lt;/a&gt;
+            </code></pre>
+          </div>
+        </div>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Collections
+
+        * <img src="framework/img/workshop/collection-page.png"/>
+        * **collection.liquid**
+          * Base template for all your collection pages.
+          * For the Debut theme, there will be a reference to `{% section 'collection-template' %}`
+          * What could be in collection-template.liquid?
+            * Collection title
+            * Collection description
+            * Product photos
+            * Product prices and other information
+
+      </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Exercise #6: Collection page hero images
+
+        * By looking up what liquid objects are <a href="https://docs.shopify.com/themes/liquid-documentation/objects/collection">available to us for collections</a>, show a hero image at the top of our collection pages.
+        * <img src="framework/img/workshop/hero-collection.png"/>
+      </script>
+    </section>
+
+    <section class="slide">
+        <h2>Upload collection feature images</h2>
+        <p>Navigate back the your "Collections" and upload the following files as feature images. Be sure to click the Save button after uploading your image before moving on to the next collection!</p>
+
+        <ul>
+            <li>The Blue Diamond Collection: <code>collection-blue-diamond.jpg</code></li>
+            <li>Accessories: <code>collection-accessories.jpg</code></li>
+        </ul>
+
+        <img src="framework/img/workshop/featured-collection-image.png" width="800px"/>
+    </section>
+
+    <section class="slide">
+      <h2>Exercise #6: Collection page hero images</h2>
+      <p>We need to go back to our code editor now, if you don't already have it open. From the Online Store > Themes section, click on the 'Customize' button on the right, and then select Theme Actions > Edit Code.</p>
+      <p>Below the <code>&lt;/header&gt;</code> tag in our collection template, insert the following HTML:</p>
+        <div class="">
+            <h3>collection-template.liquid</h3>
+            <pre><code class="hljs xml">
+&lt;div class="collection-hero">
+&lt;div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '1024x300', crop: 'top' }});">&lt;/div>
+&lt;div class="collection-hero__title-wrapper">
+&lt;h1 class="collection-hero__title page-width">{{ collection.title }}&lt;/h1>
+&lt;/div>
+&lt;/div>
+            </code></pre>
+        </div>
+        <div class="delayed">
+            <p>What is <code>img_url: '1024x1024'</code>?  Check out <a href="https://docs.shopify.com/themes/liquid-documentation/filters/url-filters#product_img_url">Shopify's preset image size parameters.</a></p>
+
+            <p>What does <code>style="..."</code> This is where CSS comes in!</p>
+        </div>
+    </section>
+
+    <section class="slide title">
+      <h1>WHAT IS CSS?</h1>
+      <h2>Cascading Style Sheets</h2>
+    </section>
+
+    <section class="slide">
+      <h2>INTRO TO CSS</h2>
+      <p>Browsers apply default styles attached to various HTML tags, such as bolded text for headings or spaces between paragraphs.</p>
+
+      <p><strong>HTML</strong> is used to define the <strong>meaning</strong> of the content.</p>
+
+      <p><strong>CSS</strong> defines the <strong>presentation</strong> and is the language used to make your web page look any way you want!</p>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      ##CSS Syntax
+
+      <pre><code>property: value;</code></pre>
+
+      <p><strong>Properties</strong> determine the type of style to be applied to the element and is followed by a colon : symbol.</p>
+
+      <p><strong>Values</strong> are specific to the property, and must end with a semi-colon ; symbol to indicate the instruction is done.</p>
+
+      <p>In the example on the slide we were just looking at, we were applying an image as a background.</p>
+
+      <pre><code>background: red;</code></pre>
+
+      <p>To change the background to an image, you must supply the URL within parentheses:</p>
+
+      <pre><code>background: url(https://yourwebsite.com/images/background.jpg);</code></pre>
+
+    </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        <h2>CSS Syntax</h2>
+
+        <p>In the piece of code we used within the <code>style=""</code> attribute, we used this liquid tag:</p>
+
+        <pre><code>background-image: url({{ collection.image | img_url: '1024x300', crop: 'top' }});</code></pre>
+
+        <p><br>This will check in Shopify if an image was uploaded for the collection, and then will crop it to the specified size. There's one problem though - what if an image wasn't uploaded for the collection?</p>
+      </script>
+    </section>
+
+    <section class="slide">
+        <div class="row row--one-half text-center">
+            <img src="framework/img/workshop/earrings-fullscreen.png" alt="Earrings full screen">
+        </div>
+        <div class="row row--one-half delayed text-center">
+            <img src="framework/img/workshop/no-image-fullscreen.png" alt="Household full screen">
+        </div>
+    </section>
+
+    <section class="slide title">
+        <h1>Liquid Tags</h1>
+        <h2>Using logic to do cool stuff</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #6c: Show hero images only if they exist</h2>
+
+        <p>We can use <a href="https://docs.shopify.com/themes/liquid-documentation/tags/control-flow-tags" alt="Control Flow Tags">Control Flow Tags</a> to check <b>if</b> a hero image exists.</p>
+        <p>Liquid <b>tags</b> are used for programming logic. Tags are wrapped with: <code>{%</code> ... <code>%}</code> </p>
+
+        <div class="delayed">
+            <h3>Pseudo code</h3>
+            <pre><code class="hljs xml">
+{% if collection_image_exists %}
+Show the hero image
+{% endif %}
+            </pre></code>
+
+            <p><b>Pro tip</b>: Pseudo code means we're using simple language to think out the steps of the problem. It's intended for human reading, so we're not worrying about the proper syntax. Think of it as a rough draft that we can polish later!  </p>
+        </div>
+
+    </section>
+
+    <section class="slide">
+      <h2>if-statements</h2>
+      <p>Only does something if a <b>condition</b> is true</p>
+      <pre><code class="hljs xml">
+{% if <span class="keyword">a condition is true</span> %}
+do this...
+{% endif %}
+            </pre></code>
+
+    <div class="delayed">
+      <p>Have different results when different <b>conditions</b> are met</p>
+      <pre><code class="hljs xml">
+{% if <span class="keyword">primary condition is true</span> %}
+Do this.
+{% elsif <span class="keyword">secondary condition is true</span> %}
+Do this.
+{% else %}
+When all else fails, do this.
+{% endif %}
+            </pre></code>
+    </div>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #6d: Show hero images only if they exist</h2>
+
+        <p>Let's piece together an if-statement to check if a hero image exists</p>
+
+        <p>Is there <a href="https://docs.shopify.com/themes/liquid-documentation/objects">a liquid object</a> that will tell us about a collection's
+        featured image?</p>
+
+        <div class="delayed">
+          <p>Answer: <code>collection.image</code> or <code>collection.image.src</code></p>
+          <hr>
+          <p>What will we write as the condition of our if-statement?</p>
+        </div>
+
+        <div class="delayed">
+          <p>Answer: <code>{% if collection.image %}</code></p>
+            <pre><code class="hljs xml">
+{% if collection.image %}
+Show the hero image
+{% endif %}
+            </pre></code>
+        </div>
+
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #6d: Show hero images only if they exist</h2>
+
+        <p>Now let's put it all together! Remember, this will go right after the closing <code>&lt;/header&gt;</code> tag:</p>
+
+        <pre><code>
+{% if collection.image %}
+&lt;div class="collection-hero"&gt;
+&lt;div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '1024x300', crop: 'top' }});"&gt;&lt;/div&gt;
+&lt;div class="collection-hero__title-wrapper"&gt;
+  &lt;h1 class="collection-hero__title page-width">{{ collection.title }}&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+{% endif %}
+        </pre></code>
+
+
+    </section>
+
+    <section class="slide">
+        <h2>Show a discount code</h2>
+
+        <p>How would you show a discount code on a Product page <b>if</b> the product is part of a specific collection - in this case the <b>Household collection</b>?</p>
+
+        <ul class="delayed">
+            <li>Make a <a href="https://docs.shopify.com/manual/your-store/discounts" alt="Discount codes">discount code</a> that will only work for products in the Household collection.</li>
+            <li>Modify <b>product-template.liquid</b> to display the code in an if-statement.</li>
+        </ul>
+
+        <img src="framework/img/workshop/discount-example.png" width="800px"/>
+
+    </section>
+
+    <section class="slide">
+        <h2>Make a discount code</h2>
+
+        <ul>
+            <li>Code: <code>home4holidays</code></li>
+            <li>Options: <code>20%</code> off</li>
+            <li>Applies to: Products in the the <code>Household</code> collection.</li>
+            <li>Optional: You can set an end date to expire this discount after the holidays are over</li>
+        </ul>
+        <img src="framework/img/workshop/new-discount-code.png" width="800px"/>
+
+    </section>
+
+    <section class="slide">
+        <h2>Iteration Tags</h2>
+        <p>Now we want to display this discount code on any product that is part of this collection. Since a product can be part of multiple collections, we to check each collection this product is a part of.</p>
+        <p>We can use an <a href="https://docs.shopify.com/themes/liquid-documentation/tags/iteration-tags#for" alt="Interation tags">Iteration Tag</a> to loop through the collections:</p>
+        <h3>Pseudo code</h3>
+        <pre><code class="hljs xml">
+{% for each collection in collections %}
+
+{% if title is 'Household' %}
+  Show the discount code
+{% endif %}
+
+{% endfor %}
+        </code></pre>
+
+    </section>
+    <section class="slide">
+        <h2>Introducing the For-loop</h2>
+
+        <p>A <strong>loop</strong> is when an instruction is repeated over and over again until a task is completed. Think about a sink full of glasses that you need to wash - you will repeat the same actions with each glass until there are no glasses left in the sink. That's a loop!</p>
+
+        <img src="framework/img/workshop/loop.gif" alt="basketball arcade game" class="center">
+    </section>
+
+    <section class="slide">
+        <h2>Introducing the For-loop</h2>
+
+        <p>Let's build a <a href="https://docs.shopify.com/themes/liquid-documentation/tags/iteration-tags#for" alt="Liquid For Loops">for loop</a> based on our pseudo code.</p>
+
+        <p>What <a href="https://docs.shopify.com/themes/liquid-documentation/objects/product">product property</a> can we use to get information on a product's collections?</p>
+
+        <div class="delayed">
+          <p>Answer: <code>{{ product.collections }}</code></p>
+        </div>
+
+    </section>
+
+    <section class="slide">
+        <h2>Introducing the For-loop</h2>
+
+        <p>What <a href="https://docs.shopify.com/themes/liquid-documentation/objects/collection">collection property</a> tells us the title?</p>
+
+        <div class="delayed">
+          <p>Answer: <code>{{ collection.title }}</code></p>
+          <hr>
+          <p>What <a href="https://docs.shopify.com/themes/liquid-documentation/basics/operators">operator</a> checks if two things are equal?</p>
+        </div>
+        <div class="delayed">
+          <p>Answer: <code>==</code></p>
+        </div>
+        <pre class="delayed"><code class="hljs">
+{% for collection in product.collections %}
+{% if collection.title == 'Household' %}
+Show the discount code.
+{% endif %}
+{% endfor %}
+        </code></pre>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #7: Show a discount code</h2>
+        <h3>product-template.liquid</h3>
+
+        <p>Place the for-loop below the product title (after the <code>&lt;h1&gt;</code> tag).</p>
+        <pre><code class="hljs">
+{% for collection in product.collections %}
+{% if collection.title == 'Household' %}
+&lt;div class="special-discount"&gt;
+  &lt;p class="special-discount__message"&gt;
+    Enter &lt;span class="special-discount__code"&gt;home4holidays&lt;/span&gt; at checkout for 20% off this item
+  &lt;/p&gt;
+&lt;/div&gt;
+{% endif %}
+{% endfor %}
+        </code></pre>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #7c: Show a discount code</h2>
+        <p>Those <code>class</code> attributes are used by the CSS to apply the styles to our discount code. The CSS applies a green background, changes the font styles and spacing.</p>
+
+        <img src="framework/img/workshop/show-discount.png" width="800px"/>
+
+        <img src="framework/img/workshop/hide-discount.png" width="800px"/>
+
+    </section>
+
+    <section class="slide title">
+        <h1>Snippets</h1>
+        <h2 class="delayed">Make your code smarter<span class="delayed">, cleaner</span><span class="delayed">, and more efficient</span></h2>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #9: Limit a loop</h2>
+        <p>If you think there are too many (or not enough) products on your home page, how could we change this?</p>
+
+        <p>What template file controls what's on the homepage?</p>
+
+        <div class="delayed">
+          <p>Answer: <b>index.liquid</b></p>
+          <hr>
+        </div>
+        <div class="delayed">
+          <p>We need to:</p>
+          <ul>
+            <li>Open <code>index.liquid</code></li>
+            <li>Locate where the featured products code is</li>
+            <li>Find out how to control the number of products display here</li>
+          </ul>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Theme tags</h2>
+
+        <h3>index.liquid</h3>
+        <p>There doesn't appear to be much here...</p>
+
+        <img src="framework/img/workshop/fooled-me.gif" class="w50 center">
+    </section>
+
+    <section class="slide">
+        <h2>Theme tags</h2>
+
+        <p>This file contains a piece of code, <code>{{ content_for_index }}</code>, that injects home page sections.</p>
+
+        <p>Elsewhere in theme files you may also see <code>{% include %}</code> elements in the template. These are a type of <a href="https://help.shopify.com/themes/liquid/tags/theme-tags#include">Theme tag</a>.</p>
+
+        <p>We use <code>include</code> to pull parts of other files into templates.</p>
+
+        <div class="delayed">
+          <h3>collection-template.liquid</h3>
+          <pre><code class="hljs">
+{% if paginate.pages > 1 %}  // if we have enough products to merit pages
+{% include 'pagination' %} // show the pagination buttons
+{% endif %}
+          </code></pre>
+          <img src="framework/img/workshop/pagination-highlight.png" class="center">
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Theme Tags</h2>
+        <p>Let's see if we can determine where the home page collections are coded!</p>
+        <p>Open up the <strong>Section</strong> titled <code>collection.liquid</code> and find where the code is displaying products.</p>
+        <div class="delayed">
+        <hr>
+          <pre>
+              <code>
+&lt;div class="grid grid--uniform grid--view-items">
+{% for product in collection.products %}
+&lt;div class="grid__item {{ grid_item_width }}">
+  {% include 'product-card-grid', grid_image_width: image_size %}
+&lt;/div>
+{% endfor %}
+&lt;/div>
+            </code>
+        </pre>
+        <p>Where you see the word <code>include</code>, the contents of another file are being pulled into this one.<br>
+        The <code>product-card-grid.liquid</code> snippet will include all the code to display a product's image, title, price, vendor, etc.</p>
+      </div>
+    </section>
+
+    <section class="slide">
+        <h2>Parameters</h2>
+
+        <p>Now we have to split the products up into separate pages. Is there a <a alt="Shopify For Loop" href="https://docs.shopify.com/themes/liquid-documentation/tags/iteration-tags#for">for-loop parameter</a> that can help?</p>
+        <div class="delayed">
+          <pre>
+              <code>
+&lt;div class="grid grid--uniform grid--view-items">
+{% for product in collection.products limit: 12 %}
+&lt;div class="grid__item {{ grid_item_width }}">
+  {% include 'product-card-grid', grid_image_width: image_size %}
+&lt;/div>
+{% endfor %}
+&lt;/div>
+            </code>
+        </pre>
+
+        <p>Add this <code>limit</code> to your <code>collection-template.liquid</code> and check out one of your collection pages to see the changes!</p>
+      </div>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #10: Modify a Snippet</h2>
+
+        <h3>product-card-grid.liquid</h3>
+        <p>How can we further customize our product listing? Some of our options include:</p>
+
+        <ul>
+            <li>
+              If you're selling products from different brands/creators, you can display the product's vendor
+            </li>
+            <li>
+              If the product is using the <code>info-only</code> template, do not show the price. <a href="https://help.shopify.com/themes/liquid/tags/control-flow-tags#unless">Hint</a>
+            </li>
+            <li>
+              If the product has a tag, like <code>sustainable</code>, display a it after the price. <a href="https://help.shopify.com/themes/liquid/basics/operators#contains">Hint</a>
+            </li>
+            <li>
+              Bonus: Include the <code>icon-leaf.png</code> image (see workshop files) in front of the sustainability tag <a href="https://help.shopify.com/themes/liquid/filters/url-filters#asset_url">Hint</a>
+            </li>
+        </ul>
+
+        <img src="framework/img/workshop/modified-snippet.png" class="center">
+
+    </section>
+
+    <section class="slide centered">
+        <img src="framework/img/workshop/kitty-stump.gif">
+        <p>Stumped? Check the <a href="https://docs.shopify.com/themes/liquid-documentation/basics" alt="Liquid Documentation">Liquid Documentation online</a> or ask a mentor.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Exercise #10b: Modify a Snippet</h2>
+        <h3>Answer: Product vendor</h3>
+        <div class="delayed">
+          <p>Here is the theme setting that controls whether to output the vendor:</p>
+          <pre><code>
+&lt;div class="grid-view-item__vendor">{{ product.vendor }}&lt;/div>
+          </code></pre>
+        </div>
+    </section>
+
+    <section class="slide">
+            <h2>Exercise #10c: Modify a Snippet</h2>
+            <h3>Answer: Hide price</h3>
+            <div class="delayed">
+              <p>Wrap all the pricing information in an <code>unless</code> statement that checks the product template.</p>
+            <pre><code>
+{% unless product.template_suffix == 'info-only' %}
+  &lt;div class="grid-view-item__meta">
+    {% include 'product-price' %}
+  &lt;/div>
+{% endunless%}
+            </code></pre>
+        </section>
+
+    <section class="slide">
+        <h2>Exercise #10d: Modify a Snippet</h2>
+        <h3>Answer: Sustainable message</h3>
+        <div class="delayed">
+          <p>Use <code>contains</code> to check whether the list of tags includes "sustainable".</p>
+
+          <pre><code>
+{% if product.tags contains 'sustainable' %}
+&lt;p&gt;Sustainable product&lt;/p&gt;
+{% endif %}
+          </code></pre>
+        </div>
+        <br>
+        <div class="delayed">
+          <p>Upload <code>icon-leaf.png</code> to your theme's assets folder and use the <code>asset_url</code> filter to display it:</p>
+
+          <pre><code>
+{% if product.tags contains 'sustainable' %}
+&lt;p&gt;
+&lt;img src="{{ 'icon-leaf.png' | asset_url }}" /&gt; Sustainable product
+&lt;/p&gt;
+{% endif %}
+          </code></pre>
+        </div>
+    </section>
+
+    <section class="slide title">
+        <h1>Bogus Gateway</h1>
+        <h2>Test the order process</h2>
+    </section>
+
+    <section class="slide ">
+        <h2>Bogus Gateway</h2>
+
+        <p>You may want to simulate a transaction on your store for a number of reasons:</p>
+
+        <ul>
+            <li>Customizing order <a href="https://help.shopify.com/manual/sell-online/notifications">confirmation emails</a></li>
+            <li>Trying out <a href="https://help.shopify.com/themes/customization/cart/add-gift-wrap-option">cart modifications</a></li>
+            <li>To see the <a href="https://help.shopify.com/manual/orders/status-tracking">order status page</a></li>
+        </ul>
+
+        <p>The <strong>best way</strong> to do that in a development shop is by activating the <a href="https://help.shopify.com/manual/sell-online/checkout-settings/test-orders#bogus-gateway">Bogus Gateway</a>.</p>
+
+        <p>Your development shop will only allow you to make 10 "real" transactions, but you
+        can make <i>unlimited</i> transactions through the Bogus Gateway.</p>
+
+        <p><b>Note:</b> The Bogus Gateway is only available to development stores under a Partners account.</p>
+
+        <p class="presenter-notes">
+          Buying something from yourself, and then canceling it or refunding counts as a "real" transaction.
+          Buying something as "Cash on delivery" also counts as a "real" transation.
+        </p>
+    </section>
+
+    <section class="slide ">
+        <h2>Final exercise: Do some shopping</h2>
+        <p>Set up your <a href="https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction">bogus payment gateway</a>, then purchase some items from your storefront.</p>
+        <p><b>At checkout:</b></p>
+
+        <ul>
+            <li>Name on card: <code>Bogus Gateway</code></li>
+            <li>Credit card number: 1</li>
+            <li>CVC: 111</li>
+            <li>Expiry Date: Any time in the future.</li>
+        </ul>
+        <br>
+        <p>Why not try out the <b>discount</b> we made for the Household collection?</p>
+
+    </section>
+<!--kass-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #We Covered A LOT of ground today!
+        * Including...
+          * Shopify Partner accounts
+          * Uploading products by CSV
+          * Customizing your store's Theme
+          * Creating collections and discount codes
+        * And...
+          * Changing the navigation menu
+          * Intro to HTML & CSS
+          * Liquid objects & filters
+          * Conditional IF statements
+          * Iterations with For Loops
+      </script>
+    </section>
+
+    <section class="slide centered">
+      <h2>We Did it!</h2>
+        <img src="framework/img/workshop/shopping.gif" alt="dog pushing a shopping cart" class="w80">
+    </section>
+
+    <section class="slide">
+        <h2>Cool! What can I do now?</h2>
+        <ul>
+          <li><b>Practice</b>: Try more customizations from Shopify's <a href="https://help.shopify.com/themes/customization">list of common modifications</a>.</li>
+          <li>Experiment with some other <a href="https://themes.shopify.com/designers/shopify">free Shopify themes</a></li>
+          <li>Learn how to <a href="https://docs.shopify.com/themes/theme-development/translations/locale-files">write new translation tags</a> for the Language editor</li>
+        </ul>
+        <br>
+        <h3>If you're looking to dive further into the Partner program</h3>
+        <ul>
+          <li>Learn <a href="https://help.shopify.com/partners/getting-started">how to get started</a> as a Partner</li>
+          <li>Become a <a href="https://experts.shopify.com/setup-experts">Shopify Setup Expert</a> after 5 active shops</li>
+        </ul>
+
+    </section>
+
+    <section class="slide" data-markdown>
+        ##Shopify Resources
+
+        * [Shopify Liquid documentation](https://help.shopify.com/themes/liquid/basics): Examples and use-cases
+        * [Liquid Cheat Sheet](https://www.shopify.ca/partners/shopify-cheat-sheet): Most common Liquid items at a glance
+        * [Shopify Partners Blog](http://www.shopify.com/partners/blog): Designing, developing and selling with Shopify
+        * [Shopify forums](https://ecommerce.shopify.com/forums): Answers from Shopify employees, Experts, and other Partners
+
+    </section>
+
+    <section class="slide" data-markdown>
+        #Stretch Goal: make a product template with tabs
+
+        * There's [a cool tutorial online](https://docs.shopify.com/support/your-store/products/how-do-i-add-tabs-to-product-descriptions) on how to add product tabs to a page.
+        * BUT, no where does it say to make an alternate template, so merchants get in
+        scenarios where they don't want tabs on every product.
+
+        ### Exercise
+        * Create a page with our Return Policy.
+        * Write a snippet that describes our shipping rates with HTML.
+        * Make a new template called product.tabs based on the linked tutorial.
+
+    </section>
+
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>Building a store with Shopify</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23teenslearningcode&src=typd">#teenslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+
+</body>
+</html>
